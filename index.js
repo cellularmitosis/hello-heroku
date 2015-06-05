@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  response.send('Hello World (with pg)!');
+  response.send('Hello World (with pg) (from github)!');
 });
 
 app.get('/db', function(request, response) {
